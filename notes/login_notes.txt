@@ -1,0 +1,15 @@
+include 'cls_user.php'
+
+usage:
+
+1. to check login status use:
+	cls_user_get::chk_login
+
+2. to force login the user use:
+	cls_user_get::login
+
+3. to process login user: chk_login_value:
+	cls_user_get::chk_login_value
+
+   *make sure before to pass password value,convert it 
+	to md5 hash

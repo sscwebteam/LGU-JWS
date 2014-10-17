@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPExcel</name>
+ <channel>pear.pearplex.net</channel>
+ <summary>PHP Excel classes</summary>
+ <description>Project providing a set of classes for the PHP programming language, which allow you to write to Excel 2007 files and read from Excel 2007 files.</description>
+ <lead>
+  <name>Maarten Balliauw</name>
+  <user>maartenba</user>
+  <email>maarten@phpexcel.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-27</date>
+ <time>16:22:42</time>
+ <version>
+  <release>1.7.6</release>
+  <api>1.7.6</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt">LGPL</license>
+ <notes>
+This package ONLY contains the class files, not the documentation and example code. Please refer to http://www.codeplex.com/PHPExcel for those files.
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHPExcel" name="/">
+   <file baseinstalldir="PHPExcel" md5sum="5124b673085f97fe0d577979ca1cf1f6" name="PHPExcel/Autoloader.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b9084fed6d5d2a120ad0c76771f514cc" name="PHPExcel/CachedObjectStorageFactory.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="66bb4689e13f8e1d2335b89edc4b343b" name="PHPExcel/Calculation.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="77eca4da81b4ad6161d00bcdfab00349" name="PHPExcel/Cell.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="886a6871858253696dd43c00455b2e58" name="PHPExcel/Comment.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="95e4239a875ad11fd4d7cdf77a619bf3" name="PHPExcel/DocumentProperties.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0ea88c6f442379f3812ac24e427864b5" name="PHPExcel/DocumentSecurity.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="90d5a9ef2b1e4d86f9b2194507ec07ac" name="PHPExcel/HashTable.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6a33caedb80f3eba7205eec77a3fc0ef" name="PHPExcel/IComparable.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="14ad8da558de0cdf711f28309f4f6d54" name="PHPExcel/IOFactory.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="1063ac2d8392e3c47a8fabcd4e7bb655" name="PHPExcel/NamedRange.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c9cd68e960531597a146486d57c6bb9c" name="PHPExcel/ReferenceHelper.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fb1f5fc6c4c41cfca78658c2d8934e6f" name="PHPExcel/RichText.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="e15883089ea88bf947f1f600a8e1e7eb" name="PHPExcel/Settings.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="e7370d14645b0b88fe16302a2e21ca5d" name="PHPExcel/Style.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="efb284129ddddfd3db7e823fa58575f3" name="PHPExcel/Worksheet.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a36ddfe171173f16995fe267af37f32e" name="PHPExcel/WorksheetIterator.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="e0eee86926a71ad951159f3aa32113d4" name="PHPExcel/CachedObjectStorage/APC.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="aebbd7b016c411ef212208924624da35" name="PHPExcel/CachedObjectStorage/CacheBase.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="549965c37fc5c161b14a2ac588d5a925" name="PHPExcel/CachedObjectStorage/DiscISAM.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9d157fe125b342f8df32f42155bf9a83" name="PHPExcel/CachedObjectStorage/ICache.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="39d728bff3369bc46ba06248ba391711" name="PHPExcel/CachedObjectStorage/Memcache.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="882f3e2230aff1ca72627ab1163c2c63" name="PHPExcel/CachedObjectStorage/Memory.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="02c03d32853d085f7f2e56c21ee22a82" name="PHPExcel/CachedObjectStorage/MemoryGZip.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c790868200346a900822d998d4e1d9cb" name="PHPExcel/CachedObjectStorage/MemorySerialized.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="04df7ccb7e112abb18747904e701b2c3" name="PHPExcel/CachedObjectStorage/PHPTemp.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="22d0187f8dbdaa74416d882b978b8dad" name="PHPExcel/CachedObjectStorage/Wincache.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="52492c73bccf0d17e5cac7686b104e9c" name="PHPExcel/Calculation/Database.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="1159566d458ba3f03e9a9919d78da5fa" name="PHPExcel/Calculation/DateTime.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a900301b65939c4e8ed8bdf7ed621695" name="PHPExcel/Calculation/Engineering.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d7b26683566db9b2c73f2a58840efdff" name="PHPExcel/Calculation/Exception.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="7827ec64e5cbe9478179c93894cb4c9b" name="PHPExcel/Calculation/ExceptionHandler.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b34848903a36ae229c65216fbffea68c" name="PHPExcel/Calculation/Financial.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="e9c0e6a12acc257cd3886f9b111e4d06" name="PHPExcel/Calculation/FormulaParser.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f3bbe458e1bd4dbecd3a7c8f986c31d4" name="PHPExcel/Calculation/FormulaToken.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="7f724f970c73e80e032705a5e2809f42" name="PHPExcel/Calculation/Function.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a44608185f9bc21f28dd0173739f023b" name="PHPExcel/Calculation/functionlist.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9fe0d726d3ecfcda1fb3cf8028e8759e" name="PHPExcel/Calculation/Functions.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fca7444266f36f76d31414beeae024a2" name="PHPExcel/Calculation/Logical.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="96c365ee084a8036bb2ead3c96576ae6" name="PHPExcel/Calculation/LookupRef.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="766772433aa1cfd0c5ee5cf40bf1e1be" name="PHPExcel/Calculation/MathTrig.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="2b43157d04f52547e4d3dd0f81aac675" name="PHPExcel/Calculation/Statistical.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4f86f9f1888f60eeb6614e3660aaae81" name="PHPExcel/Calculation/TextData.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="5beb16b466aca22cd3f7d6b3b87d67fc" name="PHPExcel/Cell/AdvancedValueBinder.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="5159efff1e1050a1a5d44a47a2855907" name="PHPExcel/Cell/DataType.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="eb9353878bf004d782b4ae4ceb9065c6" name="PHPExcel/Cell/DataValidation.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fbf92282f7564783ec50e328516da277" name="PHPExcel/Cell/DefaultValueBinder.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="adaa0295d0b142c5dd31bcf08967c2a6" name="PHPExcel/Cell/Hyperlink.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="58c74b45bdb60cdbb340a1be493ee8ba" name="PHPExcel/Cell/IValueBinder.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f7a8b9f326f8d9bb7719755a84de8549" name="PHPExcel/locale/cs/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="943ba78690f74904df7c2c3a1418f5fa" name="PHPExcel/locale/cs/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="94ce0997cab2c38f1dfa54a2c3de93ed" name="PHPExcel/locale/da/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="16dba6391c92954e76ed60af98b9e90a" name="PHPExcel/locale/da/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ee6e93341e8f107346622a3323789980" name="PHPExcel/locale/de/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e9151d29a293400b4ad39fd1c2238aa8" name="PHPExcel/locale/de/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ef7df7174ed334289ef57d18071a273d" name="PHPExcel/locale/en/uk/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6a5463752456349c7768d5c0d0cb69ec" name="PHPExcel/locale/es/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7211d98c8e814a370e8d49ed89ceb7ca" name="PHPExcel/locale/es/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6e1de97df5d4bd15e0cd055c397446bb" name="PHPExcel/locale/fi/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="854c34121d16bd6791bbb358836771c1" name="PHPExcel/locale/fi/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3f45898cb2509ef65082a6e252292469" name="PHPExcel/locale/fr/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f16a333f8667a7e00dcfd5ddcd83f3c1" name="PHPExcel/locale/fr/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="85481ef56a741c4d767191fcb1611c46" name="PHPExcel/locale/hu/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="aa876cc046378c1a004118c0121a6691" name="PHPExcel/locale/hu/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="bfd767665af0261b96be00a19e6d9cd2" name="PHPExcel/locale/it/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9c42714d05b37e90919ca2d82c886a5f" name="PHPExcel/locale/it/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3a4f1b7466f4199ca57d8bdfb2d252c2" name="PHPExcel/locale/nl/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b93e6cbefafe5aadc2d1faf0b98c70ce" name="PHPExcel/locale/nl/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ff6dd1c35ca26eafb0110b731f7df7c7" name="PHPExcel/locale/no/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="284dbdb308686d96c3f5a377e699154d" name="PHPExcel/locale/no/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4e78a22fb518ed36719109858e4bc414" name="PHPExcel/locale/pl/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="866542c7ec68f121ae497221df0b6409" name="PHPExcel/locale/pl/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="1dfa16d50d997786669f5f65fdfcc5ab" name="PHPExcel/locale/pt/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="30ba01c8e7f7a3c7bcf919639a3f63ab" name="PHPExcel/locale/pt/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="83b5f009937f98011b1013a266b9e9f0" name="PHPExcel/locale/pt/br/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="70372a75ba36b9e4398ce4496ea7450c" name="PHPExcel/locale/pt/br/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8ba1a12c597e9dc33260296249abc632" name="PHPExcel/locale/ru/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="27f3fb27a9452a831f18a213f8ffd38f" name="PHPExcel/locale/ru/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e059558dc009979850c76286324802a3" name="PHPExcel/locale/sv/config" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2fe753d3094ec000cf7e7e476374ba63" name="PHPExcel/locale/sv/functions" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="58cd8eec514fe41aa31947e88c725f8d" name="PHPExcel/Reader/CSV.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b63edc7fe19dba92787a939f50cb20fb" name="PHPExcel/Reader/DefaultReadFilter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="ed19abe6e3666c59ad19ff24d899d34e" name="PHPExcel/Reader/Excel5.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a5a1b8e16298a08804539c364f732f94" name="PHPExcel/Reader/Excel2003XML.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6d08463ae0e692fb8cbdff13a8579d8d" name="PHPExcel/Reader/Excel2007.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9ea2f5dedd2d3d1030b9ca7c12d4d57e" name="PHPExcel/Reader/Gnumeric.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fa790c8f86a9b16af9f10308d51a397f" name="PHPExcel/Reader/IReader.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="331c49eb683c4f82290787f6deef7867" name="PHPExcel/Reader/IReadFilter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="e27be6ae62526795406eefda273a3bf2" name="PHPExcel/Reader/OOCalc.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9f45292d8392b668e2e2fa689f62728e" name="PHPExcel/Reader/SYLK.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8cdb3246060c4e85112b17edbb1deaad" name="PHPExcel/Reader/Excel5/Escher.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="7c56a340aa81e50604576dde7d3963ec" name="PHPExcel/Reader/Excel2007/Theme.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a70395e86f4a9e7695b642f828c39d42" name="PHPExcel/RichText/ITextElement.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8c42a4407fd20c0abd19a9a1a737dba6" name="PHPExcel/RichText/Run.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="306cf9004a075be0264200054c4bbfad" name="PHPExcel/RichText/TextElement.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9d1a80cddeccf80941c0999310554a88" name="PHPExcel/Shared/CodePage.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="62dfdd9e3b358f62feb5a124b793f661" name="PHPExcel/Shared/Date.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3b1fbbbae8a9686dfdd0bc3cf52505e4" name="PHPExcel/Shared/Drawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d246f627e9922faa04b73fb765d8a272" name="PHPExcel/Shared/Escher.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f75c6f24fa1b45a77b8050201c5e38f1" name="PHPExcel/Shared/Excel5.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="55185006913d05360569863f7436a3d2" name="PHPExcel/Shared/File.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="ec5bd00753e1ab3435fbf06562d769fd" name="PHPExcel/Shared/Font.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8c55b064a10c2ed1cba82b65f65eaa31" name="PHPExcel/Shared/OLE.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="df6b93e52f9d553089efc5673dcae9a7" name="PHPExcel/Shared/OLERead.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c12ce29093248ce737db65bf993fa274" name="PHPExcel/Shared/PasswordHasher.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="1905ab75a34ce0619108aee0ff0a8ccb" name="PHPExcel/Shared/String.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="cc51e224525de5554840077c78594579" name="PHPExcel/Shared/XMLWriter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d6232966c4539133f57b6a561b1f11cc" name="PHPExcel/Shared/ZipArchive.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9e8d85953020825dea39fb31924443c6" name="PHPExcel/Shared/ZipStreamWrapper.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="18a281f716189639f8159e44cb9963e1" name="PHPExcel/Shared/Escher/DgContainer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="96833a399620052d4354d8551111ee22" name="PHPExcel/Shared/Escher/DggContainer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9d917fc6b34b3beb6adb9a3081a607af" name="PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b20b02d13517e0fc9c0f5f0c65a1df3c" name="PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6ddf880154d7cf5993716333056d99cf" name="PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9e314de45f8e436be7aab8f522c4ec56" name="PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9de72e152d5197725cf03903ec68af89" name="PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="bb25fb4dcf5c745c711643f1578944df" name="PHPExcel/Shared/JAMA/CHANGELOG.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4c8bfd42e8f638ee9e325d01e0626416" name="PHPExcel/Shared/JAMA/CholeskyDecomposition.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="932bdce69cd84691658ee4ebde954d1b" name="PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3584facf227f891bb3277a49ec919a8d" name="PHPExcel/Shared/JAMA/LUDecomposition.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a3929a1a862e4cbf4cb64b35d47ee4c9" name="PHPExcel/Shared/JAMA/Matrix.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="95f548ec797ed8f8c06d6d134d33ebbd" name="PHPExcel/Shared/JAMA/QRDecomposition.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b0e3e59ac4a59d120775fd038d8bc693" name="PHPExcel/Shared/JAMA/SingularValueDecomposition.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a984d61eb2cebc0bc65602400ffb8ad3" name="PHPExcel/Shared/JAMA/docs/docs.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4edf14a2f79db9dd99bdb1fae5e4d9f9" name="PHPExcel/Shared/JAMA/docs/download.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="36582bfdf084af67345368c57c629792" name="PHPExcel/Shared/JAMA/docs/example.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="dfd6ce095e0fce950f303e4e4a140e1e" name="PHPExcel/Shared/JAMA/docs/index.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="85c4454df30ddd4a8c286087c458b040" name="PHPExcel/Shared/JAMA/docs/package.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="76e65ac1ba9dcfcd3ae425ed223783db" name="PHPExcel/Shared/JAMA/docs/test.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c77a15b522aaed4f4f935e7d714ce8f1" name="PHPExcel/Shared/JAMA/docs/includes/credits.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="57584c5fb334cd1abaa35751cd1d4be4" name="PHPExcel/Shared/JAMA/docs/includes/footer.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a3c6790a190495f339dd5ce6571871f8" name="PHPExcel/Shared/JAMA/docs/includes/header.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="dc11c500bce90171fe24574a120a7e2b" name="PHPExcel/Shared/JAMA/docs/includes/navbar.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0e1174031b6024332611dc2aea565209" name="PHPExcel/Shared/JAMA/examples/benchmark.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="ae1fea6a12e182303a0b37f497c1ace0" name="PHPExcel/Shared/JAMA/examples/LagrangeInterpolation.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a3515a42daff8cc2b8a61424e488d518" name="PHPExcel/Shared/JAMA/examples/LagrangeInterpolation2.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d241f95f29a9251e75110db5e19a22fa" name="PHPExcel/Shared/JAMA/examples/LevenbergMarquardt.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b6ff2ac85d9ae86774398c9f4b747fc5" name="PHPExcel/Shared/JAMA/examples/LMQuadTest.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c06d512bb4b0e16cb92a4322aaceeec5" name="PHPExcel/Shared/JAMA/examples/MagicSquareExample.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="5705ffddf355ad8eb0f1fedf230e3f74" name="PHPExcel/Shared/JAMA/examples/polyfit.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="dfc48d3fa9118e8f89a9f975ea53fa64" name="PHPExcel/Shared/JAMA/examples/Stats.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d20cd2c8710b00d6c6e0ce867f8e78db" name="PHPExcel/Shared/JAMA/examples/tile.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="19723aca94cb1db21a8ee2346d65c4bd" name="PHPExcel/Shared/JAMA/tests/TestMatrix.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="eb649938f2a91662ca060d49414ce4cb" name="PHPExcel/Shared/JAMA/utils/Error.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4d5b3a87255611e8d8cd9cd5773ffefb" name="PHPExcel/Shared/JAMA/utils/Maths.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="605487153e8db3393a0cf3e23d4aa981" name="PHPExcel/Shared/OLE/ChainedBlockStream.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0df58ca863fa340eb0ed23082ba11aaa" name="PHPExcel/Shared/OLE/PPS.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="7f90ecb330695a1f3d6e3b7212bfd804" name="PHPExcel/Shared/OLE/PPS/File.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="36a245f75d76b000688c0ba0e3ceb586" name="PHPExcel/Shared/OLE/PPS/Root.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f14599a2f089f6ff8c97e2baa4e3d575" name="PHPExcel/Shared/PCLZip/gnu-lgpl.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3ee0a4d8a06cedc0a56f29e8f351ef72" name="PHPExcel/Shared/PCLZip/pclzip.lib.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0d82536577908a1f78e1b5c6220f5810" name="PHPExcel/Shared/PCLZip/readme.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="42b57e4414e203222010f70832066323" name="PHPExcel/Shared/PDF/2dbarcodes.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="84339878993325c7228b6b22fb4e9f22" name="PHPExcel/Shared/PDF/barcodes.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b421649eaafbd22080b4cbece1fbe207" name="PHPExcel/Shared/PDF/CHANGELOG.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="274430cddcc5ae4c5c55e0d0e810ed5d" name="PHPExcel/Shared/PDF/htmlcolors.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="5c87b66a5358ebcc495b03e0afcd342c" name="PHPExcel/Shared/PDF/LICENSE.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="24137c198c6bea9fa4e0f45c5a868463" name="PHPExcel/Shared/PDF/pdf417.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3662dd9c0db109662edd23c537ae5a62" name="PHPExcel/Shared/PDF/qrcode.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4579463d0056231db6ad47942ec114ae" name="PHPExcel/Shared/PDF/README.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c137aab97f7e06a6038589968e10d976" name="PHPExcel/Shared/PDF/tcpdf.crt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="96f873c30a6f6a0f884d713d185d5bd8" name="PHPExcel/Shared/PDF/tcpdf.fdf" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7e078148a1ab66ca05041915f7013204" name="PHPExcel/Shared/PDF/tcpdf.p12" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="48aaa955d5f2857a2437e30f5e29414a" name="PHPExcel/Shared/PDF/tcpdf.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8f9c41e5ad6d46c9621dfeeb840a7eac" name="PHPExcel/Shared/PDF/unicode_data.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b06c4106aa750fa4af0eb51cf206a403" name="PHPExcel/Shared/PDF/cache/chapter_demo_1.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0b28e11ca8cd4f7ac31eefd5e7c70ffe" name="PHPExcel/Shared/PDF/cache/chapter_demo_2.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2fa9136803a081e25580791108cb0eb7" name="PHPExcel/Shared/PDF/cache/table_data_demo.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fafc34a645077043eb52881dc808e6fd" name="PHPExcel/Shared/PDF/cache/utf8test.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d1a83c4b71a87a00a86dbd53a21718f0" name="PHPExcel/Shared/PDF/config/tcpdf_config.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="bba93d4983cce4640b6dd710a9f6a7fa" name="PHPExcel/Shared/PDF/config/tcpdf_config_alt.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="12444804e78636ec626506d80399e617" name="PHPExcel/Shared/PDF/config/lang/bra.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3ced4470a9a58cb7b3e344344b860436" name="PHPExcel/Shared/PDF/config/lang/eng.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4fe87d28db793c9eeb5d6609a2ed581e" name="PHPExcel/Shared/PDF/config/lang/ger.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="de3c597d6fc5ab29a17f7f4288d52ceb" name="PHPExcel/Shared/PDF/config/lang/ita.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f2a06979cd7c5262b773f1c5257f93f8" name="PHPExcel/Shared/PDF/fonts/almohanad.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="456268528d783569a93a048dc71593e3" name="PHPExcel/Shared/PDF/fonts/almohanad.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="80a4fbacf654e77c487bbcefad390dfb" name="PHPExcel/Shared/PDF/fonts/almohanad.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="472c1a96758c2f79cb2cc34ad57bcff2" name="PHPExcel/Shared/PDF/fonts/arialunicid0-chinese-simplified.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c04eeb6a031181ccef79013ab0f867df" name="PHPExcel/Shared/PDF/fonts/arialunicid0-chinese-traditional.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="995a42247d09ae719be180d6baea321c" name="PHPExcel/Shared/PDF/fonts/arialunicid0-japanese.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0044940a4d9719751592690b39422aa5" name="PHPExcel/Shared/PDF/fonts/arialunicid0-korean.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="89e8ebace0a681e478563357a625ca9e" name="PHPExcel/Shared/PDF/fonts/arialunicid0.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e6c684fca5233fd96dfb992bc00fdb6c" name="PHPExcel/Shared/PDF/fonts/chinese.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="04e959a6c35a4c02fb32fc88f5526b14" name="PHPExcel/Shared/PDF/fonts/courier.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c6dee258467658757061c13eb348e037" name="PHPExcel/Shared/PDF/fonts/dejavusans.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f2c8e27b680e001491ce52c38e31ebde" name="PHPExcel/Shared/PDF/fonts/dejavusans.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="dd9e8f19df2bf3cc513c644984fc3c12" name="PHPExcel/Shared/PDF/fonts/dejavusans.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f810b3822aa2dfa0bbd49406f3ea8edc" name="PHPExcel/Shared/PDF/fonts/dejavusansb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="08ad6ce76707846b76c9f43453780df6" name="PHPExcel/Shared/PDF/fonts/dejavusansb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="953fd223c9d17df6f5a0518c4399381e" name="PHPExcel/Shared/PDF/fonts/dejavusansb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b0b04e0df49ca9d3d08a50e0973e4577" name="PHPExcel/Shared/PDF/fonts/dejavusansbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2c67b8057b1cab4161e89f15bb814b42" name="PHPExcel/Shared/PDF/fonts/dejavusansbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="388e004f4686a02b0718e7ffdfcd82df" name="PHPExcel/Shared/PDF/fonts/dejavusansbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c6dee258467658757061c13eb348e037" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensed.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="78c2f41540d532f68199c10ab01dd0f1" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensed.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="cc4ed5378557fd75d68ec1299cd4e1fb" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensed.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f810b3822aa2dfa0bbd49406f3ea8edc" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="27dce5a075bada12de0b9719ac434bdc" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="afcc474f5bce33c4e6a9a71b5ce4bce2" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b0b04e0df49ca9d3d08a50e0973e4577" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="77bb8dde095017adae269415c46a878b" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="597f2677e0ff39cae272941d4372a164" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9759014b6fb77fbd99baf9d1f1bb1b74" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9dba995512c76a48d1294ce2e813b522" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="40a39c1d0f7eb5aaf0fcbd6b1285480d" name="PHPExcel/Shared/PDF/fonts/dejavusanscondensedi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9759014b6fb77fbd99baf9d1f1bb1b74" name="PHPExcel/Shared/PDF/fonts/dejavusansi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c8688dbefa7c25ca98209447e00aeb24" name="PHPExcel/Shared/PDF/fonts/dejavusansi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="488feb2ea779f72237b5bdef6a30f8f8" name="PHPExcel/Shared/PDF/fonts/dejavusansi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d5d422b17890ba583b595b355b54a8c1" name="PHPExcel/Shared/PDF/fonts/dejavusansmono.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9fbe133ea22be99f91feab87a65c6d21" name="PHPExcel/Shared/PDF/fonts/dejavusansmono.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="dd9731fced1e1841cfd0061231bfef67" name="PHPExcel/Shared/PDF/fonts/dejavusansmono.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="710b8f4a3f940029848ad4c06788a4c3" name="PHPExcel/Shared/PDF/fonts/dejavusansmonob.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7526439933cc72bce7cc71f560988b2b" name="PHPExcel/Shared/PDF/fonts/dejavusansmonob.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="910e689244dae4d50c399ed883e27491" name="PHPExcel/Shared/PDF/fonts/dejavusansmonob.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b3b3bacdc0f73fb4512a78a00bbd8024" name="PHPExcel/Shared/PDF/fonts/dejavusansmonobi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="bcd6689bd95405c35f346924a84e6549" name="PHPExcel/Shared/PDF/fonts/dejavusansmonobi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5da43c95c5e338ee78f839888d60d2af" name="PHPExcel/Shared/PDF/fonts/dejavusansmonobi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="51fb53b36c20e636b80d915c8d9f52ee" name="PHPExcel/Shared/PDF/fonts/dejavusansmonoi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="1bcb56b12dada08e05cb842ea0f2eaf3" name="PHPExcel/Shared/PDF/fonts/dejavusansmonoi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3b8696b482633ceda44b33d48d20a8e6" name="PHPExcel/Shared/PDF/fonts/dejavusansmonoi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="445d6c09ed1ee1d6de51a6fad0d2076c" name="PHPExcel/Shared/PDF/fonts/dejavuserif.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3a04df023d9e45ef0af007fd63cae6a1" name="PHPExcel/Shared/PDF/fonts/dejavuserif.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b79a53042a17af7a4b2e49591365b23a" name="PHPExcel/Shared/PDF/fonts/dejavuserif.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="201772e4165b8ca56125cb125bc6aaeb" name="PHPExcel/Shared/PDF/fonts/dejavuserifb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2166b539d20e19905ce8a83095853c62" name="PHPExcel/Shared/PDF/fonts/dejavuserifb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b2fc691bda11728584974317b4478dc4" name="PHPExcel/Shared/PDF/fonts/dejavuserifb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e2e464898d3604783efde9cac56e1b14" name="PHPExcel/Shared/PDF/fonts/dejavuserifbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4aca507fc863d5cbb66abf81927f54eb" name="PHPExcel/Shared/PDF/fonts/dejavuserifbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5e650280fb7dceaa8a3c5ab96c540298" name="PHPExcel/Shared/PDF/fonts/dejavuserifbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="445d6c09ed1ee1d6de51a6fad0d2076c" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensed.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e7c4e53c4fc58f05416eb28593b70eb3" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensed.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="015180e8f0a2c383f35e194b8624b18b" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensed.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="201772e4165b8ca56125cb125bc6aaeb" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="407ee1355f7ed041f478d2413ac58270" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ebcf9bbfb999ad71e2c78c3813bcf505" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e2e464898d3604783efde9cac56e1b14" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a8207b33a7fd1dd902c9c64d95e0d6b2" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="1310b381d150e1ebec868cd6b985772c" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2b00beacf9612603fd7a979107da041e" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0096154a52e6af080863f3dccf8c5870" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e8c26aa3eebd1504d0e2a99a033a1017" name="PHPExcel/Shared/PDF/fonts/dejavuserifcondensedi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2b00beacf9612603fd7a979107da041e" name="PHPExcel/Shared/PDF/fonts/dejavuserifi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6dca7245c4b6b61ed3b426a4f6e85146" name="PHPExcel/Shared/PDF/fonts/dejavuserifi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d0341ad9de509de9ba384c9e6a585ae1" name="PHPExcel/Shared/PDF/fonts/dejavuserifi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f73a961ee8cb3b188d1cda4e09fbb088" name="PHPExcel/Shared/PDF/fonts/freemono.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5bef898a8766ab5df34c66a4f5d0f047" name="PHPExcel/Shared/PDF/fonts/freemono.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d79400609935c24e62b8e77b911ddb59" name="PHPExcel/Shared/PDF/fonts/freemono.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="61c91e280487ca2d029fb3f6ac3b1693" name="PHPExcel/Shared/PDF/fonts/freemonob.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="dc46436de21e5e40768212cac9f85a6b" name="PHPExcel/Shared/PDF/fonts/freemonob.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c316a9d665ee51ffb39af21a4521831a" name="PHPExcel/Shared/PDF/fonts/freemonob.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="553f43b8b879bd682255df5aea73d5ad" name="PHPExcel/Shared/PDF/fonts/freemonobi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="98784b9694373049f1e015a729f473dc" name="PHPExcel/Shared/PDF/fonts/freemonobi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a5dddfefae24cd227ca0c808e7c88c07" name="PHPExcel/Shared/PDF/fonts/freemonobi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="bbf715056489966a7a351c7494fbdb5f" name="PHPExcel/Shared/PDF/fonts/freemonoi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="512bc32fc86d1038be40c6493d61e2ab" name="PHPExcel/Shared/PDF/fonts/freemonoi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ef3fb6205523847b444f13ca057aa56b" name="PHPExcel/Shared/PDF/fonts/freemonoi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fda04b959ad2c05eebe837f705c37b86" name="PHPExcel/Shared/PDF/fonts/freesans.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7171e342673d2c89698fb5855d4abc88" name="PHPExcel/Shared/PDF/fonts/freesans.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6a7a3469768b5a89e444fd6554ac6308" name="PHPExcel/Shared/PDF/fonts/freesans.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e826858d8a431651be621e274780b5e0" name="PHPExcel/Shared/PDF/fonts/freesansb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0952ca28c44b9e925224aaa96ebc2b94" name="PHPExcel/Shared/PDF/fonts/freesansb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="af84460268805a896b591e25030153ef" name="PHPExcel/Shared/PDF/fonts/freesansb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="18bdedd570768231123816ab79b69e8b" name="PHPExcel/Shared/PDF/fonts/freesansbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f35cdf1f6b332d274ff4a514e91b6557" name="PHPExcel/Shared/PDF/fonts/freesansbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5c5c2f588ae48dca8638f86a8442f6b8" name="PHPExcel/Shared/PDF/fonts/freesansbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7650033fa03129a4bfd124b624a3a3d9" name="PHPExcel/Shared/PDF/fonts/freesansi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a592c4d0d90b2e86f245b8ae9a4f1683" name="PHPExcel/Shared/PDF/fonts/freesansi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="53bae1e50c3e175dc8d7635605f798a5" name="PHPExcel/Shared/PDF/fonts/freesansi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="909a2e85f49fdc735ba5ce4ca0c5ea45" name="PHPExcel/Shared/PDF/fonts/freeserif.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="285baf75c285db48148fc150bc71c3b6" name="PHPExcel/Shared/PDF/fonts/freeserif.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c33b83ed1bc225169b3c342c95a54fec" name="PHPExcel/Shared/PDF/fonts/freeserif.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="bff25b5e3e00699dbe1f7b5372c466db" name="PHPExcel/Shared/PDF/fonts/freeserifb.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e265a15154161c3fad8992f64ab0e1c7" name="PHPExcel/Shared/PDF/fonts/freeserifb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="1c21bd9f906fff862f61c05cc91388f0" name="PHPExcel/Shared/PDF/fonts/freeserifb.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0077a331ff8f5bedccc139d3fa8a9e62" name="PHPExcel/Shared/PDF/fonts/freeserifbi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="755d42fa9174af6a7c6a00b541ffe905" name="PHPExcel/Shared/PDF/fonts/freeserifbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8d5f5a3a017b9cb042d0912cc730fd04" name="PHPExcel/Shared/PDF/fonts/freeserifbi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4633113ededc5db4f3b47ee7cdaea002" name="PHPExcel/Shared/PDF/fonts/freeserifi.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a5c41334369b685500503386d983f573" name="PHPExcel/Shared/PDF/fonts/freeserifi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8fa23e9195c756124b19d98eb5326f74" name="PHPExcel/Shared/PDF/fonts/freeserifi.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5b9dc697d95ad7cbb237a6f5113aaf85" name="PHPExcel/Shared/PDF/fonts/helvetica.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7432f5a55b09b29ec584340d17e8c0b7" name="PHPExcel/Shared/PDF/fonts/helveticab.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="7432f5a55b09b29ec584340d17e8c0b7" name="PHPExcel/Shared/PDF/fonts/helveticabi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5b9dc697d95ad7cbb237a6f5113aaf85" name="PHPExcel/Shared/PDF/fonts/helveticai.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="51f6fe162641de3714866950d5eff4e8" name="PHPExcel/Shared/PDF/fonts/hysmyeongjostdmedium.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2c5e8a67d1a805aae9842bbad59a873f" name="PHPExcel/Shared/PDF/fonts/kozgopromedium.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="78fdf805f1cea6cd01912192821ec734" name="PHPExcel/Shared/PDF/fonts/kozminproregular.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c940b153fb6c5b3498efa181881b5b6c" name="PHPExcel/Shared/PDF/fonts/msungstdlight.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ff43feeaa5bf43ad5fda4d04337f202c" name="PHPExcel/Shared/PDF/fonts/README.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="eb85dc872664c0769e9fab1b7540b4d5" name="PHPExcel/Shared/PDF/fonts/stsongstdlight.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c7d9296e6fa6ac9d726de4c740c46f21" name="PHPExcel/Shared/PDF/fonts/symbol.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b01d5902215ddf926c3f0c2c7405d5b8" name="PHPExcel/Shared/PDF/fonts/times.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="50de5cf4800cfffed9124e94b4f2a239" name="PHPExcel/Shared/PDF/fonts/timesb.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="57845be368b2beac082ba41cec3e8b2c" name="PHPExcel/Shared/PDF/fonts/timesbi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="28b377e0dc254a168af91a88e46b12fa" name="PHPExcel/Shared/PDF/fonts/timesi.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="bac1f28a86f4c2763da09bcbcbec2153" name="PHPExcel/Shared/PDF/fonts/uni2cid_ac15.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="67bbf6b4afd80f3e760f726345279012" name="PHPExcel/Shared/PDF/fonts/uni2cid_ag15.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ccf3e2e23a1ed1db90e3f662235f97b6" name="PHPExcel/Shared/PDF/fonts/uni2cid_aj16.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fc4207c2dbc81a7710f15082535c3e31" name="PHPExcel/Shared/PDF/fonts/uni2cid_ak12.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9d39d4705566b27e42657717cb83baf4" name="PHPExcel/Shared/PDF/fonts/zapfdingbats.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="528ac7c953c1a851cd87e5248a82be1b" name="PHPExcel/Shared/PDF/fonts/ZarBold.ctg.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4991098ad7cbf3536f19057679fd50e1" name="PHPExcel/Shared/PDF/fonts/zarbold.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6f9cee0b7b2a815a84fa0a1fbaaf31de" name="PHPExcel/Shared/PDF/fonts/ZarBold.z" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="086f37c97c542c5571ab2d0e802807c4" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/AUTHORS" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fc037b603dc40195bbd1bbd8564340cc" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/BUGS" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="2238fa00e8b637cec021bf3de5751f9d" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/langcover.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9f867da7a73fad2715291348e80d0763" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/LICENSE" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="15786479e89e10b679f0ccbb05cec205" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/NEWS" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fc85f71ef74cda9726fae158a9be6867" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/README" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c454be9dcc1adbfa6756d587297885b2" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/status.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="24655936e25c0f893572ceaa9824697d" name="PHPExcel/Shared/PDF/fonts/dejavu-fonts-ttf-2.30/unicover.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5596985405512a399fd88db9b81cd1cf" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/AUTHORS" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0f725309c0440d7977e1985203336a84" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/ChangeLog" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d32239bcb673463ab874e80d47fae504" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/COPYING" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="741390ed9b5fc9795e0024ffebe2dd5a" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/CREDITS" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a2e9f46a8e42686872c9d6761a549199" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/INSTALL" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="853d1091583fe777e04fb76d7595e402" name="PHPExcel/Shared/PDF/fonts/freefont-20090104/README" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="e7f5fa7772dd00ef6a2299ba27e8eccc" name="PHPExcel/Shared/PDF/fonts/utils/freetype6.dll" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5852408fca7f2251c5edd9325c7dfc5c" name="PHPExcel/Shared/PDF/fonts/utils/makeallttffonts.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f8da6e4e7da1ad411f4d5ac255e4b34e" name="PHPExcel/Shared/PDF/fonts/utils/makefont.php" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="061699c56f3b9fc6624195efaf1f1a36" name="PHPExcel/Shared/PDF/fonts/utils/pfm2afm" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c830b83b22b3849823c382f42d8fe9ce" name="PHPExcel/Shared/PDF/fonts/utils/pfm2afm.exe" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="400602aee7e17e24e596cfcbd4094f18" name="PHPExcel/Shared/PDF/fonts/utils/README.TXT" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8d529acf56d0666abd78c880a34b7618" name="PHPExcel/Shared/PDF/fonts/utils/ttf2ufm" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3f3b2fda1b40a33df5849fc0a2e55edf" name="PHPExcel/Shared/PDF/fonts/utils/ttf2ufm.exe" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c7d4d685a0af2a09cbc21cb474358595" name="PHPExcel/Shared/PDF/fonts/utils/zlib1.dll" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4fbafebd9ea29f4e10889749ec414113" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp874.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8a021bf2c9796273f4b2c3824efefc1d" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1250.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="ee2f10b8198819a33d4aa566a7df4ec6" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1251.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8d7358daa8b750747694e822111898f9" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1252.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="907301f283e7457d037fee0adb5ce187" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1253.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="46e48666d54b3bc0d7eba59e1fc768f3" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1254.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c469cfdac7010e50b7fbcabaaf1393b1" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1255.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fe87c493f46ddfd8b57212cbc52e25ac" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1257.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="86a4dee852783cc5b85ac83a82729d47" name="PHPExcel/Shared/PDF/fonts/utils/enc/cp1258.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="53bffea6677269f073516bb10d28de02" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-1.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="47507c221cb986421905861794102889" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-2.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="0355d40c58aa1db273ced4e7697b15b0" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-4.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="82a2003dbd3b5e359ea6b19898d4bc89" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-5.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d0712d80739797b3495f67490d328d08" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-7.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="8647a52d390b37e26ed05e5ed6793b76" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-9.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="83ecaf01ee009dc60c74e4fdaff0aa26" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-11.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3d09f07dd446c6a2fc13a609c084e854" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-15.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b56b0749d1ac137491e3714039009960" name="PHPExcel/Shared/PDF/fonts/utils/enc/iso-8859-16.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="04f520a75d940d47dec77f1cc0539fbb" name="PHPExcel/Shared/PDF/fonts/utils/enc/koi8-r.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9046b7222af56cb6bbc349cac9dbabdf" name="PHPExcel/Shared/PDF/fonts/utils/enc/koi8-u.map" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="75d9253fc860c0d1cf8359beba819db1" name="PHPExcel/Shared/PDF/fonts/utils/src/pfm2afm-src.tar.gz" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="cf3842a35cbc3aded2ed8392925b3e66" name="PHPExcel/Shared/PDF/fonts/utils/src/readme.txt" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="007765516f4c467fd8b7a10ff2684d0e" name="PHPExcel/Shared/PDF/fonts/utils/src/ttf2ufm-src.tar.gz" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f6d1320e38293a9444ef1cb60ee92ecf" name="PHPExcel/Shared/PDF/images/alpha.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="870d48bcd7d58fa3723e624162728d34" name="PHPExcel/Shared/PDF/images/bug.eps" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9ec64c4bb4df665e223780d35f8d9c96" name="PHPExcel/Shared/PDF/images/image_demo.jpg" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9cee793a043af8885be5667c2257d2a5" name="PHPExcel/Shared/PDF/images/image_with_alpha.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="24c2f2ad7e551cf01912863320140987" name="PHPExcel/Shared/PDF/images/img.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="f3d95c6a4f9e029d634f875573b5bc3b" name="PHPExcel/Shared/PDF/images/logo_example.gif" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="a3eef04e7257e5d82a244ff172ca3fa9" name="PHPExcel/Shared/PDF/images/logo_example.jpg" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="5f263c19d9009be6148a784dc31028c0" name="PHPExcel/Shared/PDF/images/logo_example.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="fd97f14d8ef2b05fed324cd835fdea1d" name="PHPExcel/Shared/PDF/images/pelican.ai" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="c11e13216ca20b9d69286595a763ff54" name="PHPExcel/Shared/PDF/images/tcpdf_cell.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="d519711f13ed5969bd91981447d4ad86" name="PHPExcel/Shared/PDF/images/tcpdf_logo.jpg" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="da9239ba5500205659309cd05b0c16cd" name="PHPExcel/Shared/PDF/images/tcpdf_signature.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="b1fa68fa16d69665a159b382cef2a5f7" name="PHPExcel/Shared/PDF/images/testsvg.svg" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="3c4c6e28e453293775f17493b2d8e864" name="PHPExcel/Shared/PDF/images/tiger.ai" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="4c8326adf783a713cacf3abd78cfd7a7" name="PHPExcel/Shared/PDF/images/tux.svg" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="9bbf8b89dfee264016a5cf95daa02a10" name="PHPExcel/Shared/PDF/images/_blank.png" role="data" />
+   <file baseinstalldir="PHPExcel" md5sum="6040838baf3f2a165f7bbf69b9545d30" name="PHPExcel/Shared/trend/bestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9eac2b10f27d150ad59a195307ce8f91" name="PHPExcel/Shared/trend/exponentialBestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3b6be79d916d452c29d72f3fe9a4a011" name="PHPExcel/Shared/trend/linearBestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="932d5b72101bf4193a3f21ded7b3430c" name="PHPExcel/Shared/trend/logarithmicBestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0622596acc4858909f81e75c8413be19" name="PHPExcel/Shared/trend/polynomialBestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fe22840a18e6ae4e22213de9119e2986" name="PHPExcel/Shared/trend/powerBestFitClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="99a8ef97214b571ae4df40ea8622b61c" name="PHPExcel/Shared/trend/trendClass.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="2e13e152a9a60fe5d17cde1ff49094a2" name="PHPExcel/Style/Alignment.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="92fe0aa8e03d2728b67c33ed88adb511" name="PHPExcel/Style/Border.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c8f230ce376c47554eaab858a260579b" name="PHPExcel/Style/Borders.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="2485034176c6d09e7b087e3ce6a6e9ab" name="PHPExcel/Style/Color.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="18c5db30eedf92b8d6187619c4943b69" name="PHPExcel/Style/Conditional.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="17550b9f37c075b322d7d20ca622c272" name="PHPExcel/Style/Fill.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="dd375b44b5e04b26c3f4be3c746e4e76" name="PHPExcel/Style/Font.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6282478591a0a69a48eed5add80d575f" name="PHPExcel/Style/NumberFormat.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f5d7467e102714d3ef8aa13731e4c9a9" name="PHPExcel/Style/Protection.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="549e983eceb1a9db7dd39dd4c58b4625" name="PHPExcel/Worksheet/BaseDrawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6432ae4b2741d3fb2a93cf006e89d340" name="PHPExcel/Worksheet/CellIterator.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="2795c3fc1b8b4f8c1a0008c888da9405" name="PHPExcel/Worksheet/ColumnDimension.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b942f9659bd2fcab326ed9dff4e1f6b7" name="PHPExcel/Worksheet/Drawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="fdf9c6fc2fb7f1948c00b9ee87325ab3" name="PHPExcel/Worksheet/HeaderFooter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="676000eb55848df6276b55e9585e3a72" name="PHPExcel/Worksheet/HeaderFooterDrawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="a4af745a0a43093116a08084e3b4228f" name="PHPExcel/Worksheet/MemoryDrawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="c43097a2127f366909602f1d9c0dc44a" name="PHPExcel/Worksheet/PageMargins.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="039513147e61faca946535c91e742fa7" name="PHPExcel/Worksheet/PageSetup.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="048f05216fc5f81bc2c7022cd63884df" name="PHPExcel/Worksheet/Protection.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="d7d8961d51878f8a81f81d6dbadb94fb" name="PHPExcel/Worksheet/Row.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="6f67f5978898cfe9db8dc068d4e0c29f" name="PHPExcel/Worksheet/RowDimension.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="7803e26bacbecfa769b59a9417d8bb17" name="PHPExcel/Worksheet/RowIterator.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3ee82570266caa77fd09613e8f1a914a" name="PHPExcel/Worksheet/SheetView.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f92a8ef29048f468cc1806336c1f92f7" name="PHPExcel/Worksheet/Drawing/Shadow.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="0ce6fd381bc1fc23eeba1f8397edac43" name="PHPExcel/Writer/CSV.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="2b281f5b00ef1ce659bc3f3ce2d075dd" name="PHPExcel/Writer/Excel5.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="97b2eb4130474cbcf60a11ee17d108b3" name="PHPExcel/Writer/Excel2007.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8c12bb7173512e20981bd112a418dde2" name="PHPExcel/Writer/HTML.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="62e8282db704b38b98ff8151a8c53507" name="PHPExcel/Writer/IWriter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="85b8788f86bb7f0134054f6dd4016598" name="PHPExcel/Writer/PDF.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f13d35732f5fb00dfbdd26bbdba1ad36" name="PHPExcel/Writer/Excel5/BIFFwriter.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3069413d4c43a25a25b50becb93af2e9" name="PHPExcel/Writer/Excel5/Escher.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b96bb2191224c7cc222c6dac7ee2080e" name="PHPExcel/Writer/Excel5/Font.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="4d64da1f42b214d92c189f3828249d6c" name="PHPExcel/Writer/Excel5/Parser.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="5009f0143dc8420ccaff2d0bb7f632ac" name="PHPExcel/Writer/Excel5/Workbook.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="3148c107315bddeed942639e50833ff9" name="PHPExcel/Writer/Excel5/Worksheet.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="df137e1661e3a9e626d3841b061fd1ec" name="PHPExcel/Writer/Excel5/Xf.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f9ce6fcc308e4f8ff86b41692e8afa0b" name="PHPExcel/Writer/Excel2007/Comments.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="02ca04dffdfd194008dbee58cc32d74a" name="PHPExcel/Writer/Excel2007/ContentTypes.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="f5995d6992883a99e3af65b68ae482fb" name="PHPExcel/Writer/Excel2007/DocProps.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="be2a36af7c131543b8ba0a1c9068ad31" name="PHPExcel/Writer/Excel2007/Drawing.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="64918c8e1b9b4da7862a670e61f7c16c" name="PHPExcel/Writer/Excel2007/Rels.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="37024abc1a60cc6347d04877ba7ba149" name="PHPExcel/Writer/Excel2007/StringTable.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="43270dd3a6c314872b33fd80966bb7eb" name="PHPExcel/Writer/Excel2007/Style.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="44481b149ba15acce148e83ef4f4cd81" name="PHPExcel/Writer/Excel2007/Theme.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="8c7acc0651e173ba119144dfc7e1a610" name="PHPExcel/Writer/Excel2007/Workbook.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="b6a88572d843ea3fd0147e1561982888" name="PHPExcel/Writer/Excel2007/Worksheet.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="686f6718c916bba39d6a1fd61835b134" name="PHPExcel/Writer/Excel2007/WriterPart.php" role="php" />
+   <file baseinstalldir="PHPExcel" md5sum="9ea0af40126b536febb4fbaf7781fbc8" name="PHPExcel.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>zip</name>
+    <min>1.8.0</min>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.7.6</release>
+    <api>1.7.6</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt">LGPL</license>
+   <notes>
+This package ONLY contains the class files, not the documentation and example code. Please refer to http://www.codeplex.com/PHPExcel for those files.
+   </notes>
+  </release>
+ </changelog>
+</package>

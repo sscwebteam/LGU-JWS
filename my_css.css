@@ -1,0 +1,334 @@
+
+input{
+	width:150px;
+	height:25px;
+	font-weight:bold;
+}
+table.initial{
+margin-left:50px;
+}
+table.initial th{
+	text-align:right;
+}
+table.initial td{
+	text-align:left;
+}
+#playlist tbody tr td{ /* used in tables with odd even colors */ 
+		background-color:yellow;
+}
+#playlist tbody tr.odd td {
+		background-color:red;
+}
+table.header{
+	margin-left:35%;
+	margin-right:auto;	
+}
+table.header tr td{
+	align:center;
+	border-style:none;	
+	text-align:center;
+	font-weight:bolder;
+	font-size:12pt;
+}
+table.credentials{
+	margin-left:40px;
+	margin-right:auto;	
+}
+table.credentials tr td {
+	align:center;
+	border-style:none;	
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:10pt;
+	width:25em;
+	height:10px;	
+}
+table.credentials tr th{
+	border-style:none;	
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:10pt;
+	width:20em;
+	height:10px;
+		
+}
+
+
+.filter {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 400px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 500px;
+	}
+.new_ledger {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 1000px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+	}	
+	
+	table.listings{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 100%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 500px;
+	border-spacing: 0px;
+}
+table.listings thead tr{
+  font-family: Arial, monospace;
+  font-size: 14px;
+}
+
+table.listings thead tr th{
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  margin: 0px;
+  padding: 2px;
+  background-color: #cccccc;
+}
+
+
+table.listings tr {
+  font-family: arial, monospace;
+  color: black;
+  font-size:12px;
+  background-color: white;
+}
+
+table.listings tr.odd {
+  background-color: #AAAAAA;
+}
+
+table.listings tr td, th{
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+table.listings tr td a:link{
+  font-family:arial, monospace;
+  text-decoration: none;
+  color: teal;
+}
+
+table.listings tr td a:hover{
+  text-decoration: underline;
+   color:yellow;
+}
+
+table.listings tr td a:visited{
+  color:black;
+  text-decoration: none;
+}
+table.ledger_2{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+/*	width: auto; *//* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+/*	width: auto;*/
+  border-spacing: 0px;
+}
+table.ledger_2 thead tr{
+  font-family: Arial, monospace;
+  font-size: 12px;
+	
+}
+
+table.ledger_2 thead tr th{
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  background-color: #cccccc;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:10pt;
+	width:5px;
+	height:10px;	
+}
+table.ledger_2 tr {
+  font-family: arial, monospace;
+  color: black;
+  font-size:12px;
+  background-color: white;
+}
+
+table.ledger_2 tr.odd {
+  background-color: #AAAAAA;
+}
+
+table.ledger_2 tr td, th{
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+table.ledger_2 tr td a:link{
+  font-family:arial, monospace;
+  text-decoration: none;
+  color: teal;
+}
+
+table.ledger_2 tr td a:hover{
+  text-decoration: underline;
+   color:yellow;
+}
+
+table.ledger_2 tr td a:visited{
+  color:black;
+  text-decoration: none;
+}
+table.ledger_2 tr td input{
+	text-align:left;
+	text-transform:NONE;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10pt;
+	width:5em;
+	height:2em;	
+}
+table.update_ledger{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+/*	width: 200px; *//* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+/*	width: 300px;*/
+  border-spacing: 0px;
+}
+table.update_ledger thead tr{
+  font-family: Arial, monospace;
+  font-size: 14px;
+	
+}
+
+table.update_ledger thead tr th{
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  background-color: #cccccc;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:10pt;
+	width:5px;
+	height:10px;	
+}
+table.update_ledger tr {
+  font-family: arial, monospace;
+  color: black;
+  font-size:12px;
+  background-color: white;
+}
+
+table.update_ledger tr.odd {
+  background-color: #AAAAAA;
+}
+
+table.update_ledger tr td, th{
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+table.update_ledger tr td a:link{
+  font-family:arial, monospace;
+  text-decoration: none;
+  color: teal;
+}
+
+table.update_ledger  tr td a:hover{
+  text-decoration: underline;
+   color:yellow;
+}
+
+table.update_ledger tr td a:visited{
+  color:black;
+  text-decoration: none;
+}
+table.update_ledger tr td input{
+	text-align:center;
+	text-transform:NONE;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10pt;
+	width:10em;
+	height:2em;	
+}
+.new_ledger_update {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background:#7FFFD4;
+	border: 5px solid #ccc;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 1000px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 600px;
+	}	
+.error_input{
+	color:red;
+	font-size:24pt;
+}
+.confirmation{
+	color:black;
+	font-size:24pt;
+	font-style:italic;
+}
+div.pagination {
+	font-size:12t;
+	font-weight:bolder;
+}
+div.pagination form select,.pagination form input{
+	width:4em;
+	height:2em;
+}
+.inactive{
+	color:#666666;
+}
+.dialog {
+	display: none;
+	margin: 100px auto;
+	position: relative;
+  width: 500px;
+  padding: 40px;
+  background: white;
+  -moz-border-radius: 10px;
+}
+}

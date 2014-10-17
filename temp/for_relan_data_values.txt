@@ -1,0 +1,9 @@
+FTP
+host: villaisabelhotel.com
+login:relan
+password: relan
+
+database:villaisa_vcis
+username: relan
+password: relan
+

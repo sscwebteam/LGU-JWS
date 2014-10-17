@@ -1,0 +1,1 @@
+<?php include_once 'main_file.php';?>

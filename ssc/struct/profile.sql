@@ -1,0 +1,23 @@
+CREATE TABLE `profile` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `acct_no` text,
+  `applicant` text,
+  `address_st` text,
+  `date_applied` text,
+  `serial_no` text,
+  `size` text,
+  `or_no` text,
+  `or_date` text,
+  `type_connection` text,
+  `approval` text,
+  `date_installed` text COMMENT 'mm-dd-yyyy format',
+  `mode_payment` varchar(45) DEFAULT NULL COMMENT '2-installment;1;cash',
+  `address_brgy` text,
+  `brand` text,
+  `type_inspct` text,
+  `plumber` text,
+  `initial_reading` text,
+  `inspector` text,
+  `meterno` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1556 DEFAULT CHARSET=latin1

@@ -1,0 +1,18 @@
+1; Juban Wat... Advanced License is required!; juban_water_system.htm;
+2; User Cre... Advanced License is required!; user_credentials.htm;
+3; LOGIN... Advanced License is required!; login_panel.htm;
+4; Admin... Advanced License is required!; admin_panel.htm;
+5; Create/Vie... Advanced License is required!; create_view_new_user.htm;
+6; New us... Advanced License is required!; new_user_form.htm;
+7; View existi... Advanced License is required!; view_existing_accounts.htm;
+8; JWC ... Advanced License is required!; jwc_panel.htm;
+9; Bill a... Advanced License is required!; bill_a_client.htm;
+10; Led... Advanced License is required!; ledger.htm;
+11; Create... Advanced License is required!; create_ledger.htm;
+12; Update... Advanced License is required!; update_ledger.htm;
+13; Delete... Advanced License is required!; delete_ledger.htm;
+14; Cashie... Advanced License is required!; cashier_panel.htm;
+15; Accounti... Advanced License is required!; accounting_panel.htm;
+16; Receivables ... Advanced License is required!; receivables_and_receipts.htm;
+17; Profile and ... Advanced License is required!; profile_and_ledger_status.htm;
+18; Names Per... Advanced License is required!; names_per_barangay.htm;
